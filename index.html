@@ -1,6 +1,197 @@
+         <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Диплом</title>
+</head>
+
+
+<body>
+    <div class="your-feedback-window">
+        <input id="chexkbox-window" type="checkbox">
+        <label class="window-btn" for="chexkbox-window">
+            <img src="svg/form-x.svg" alt="X">
+        </label>
+        <div class="window-background">
+            <div class="your-feedback-window">
+                <h2 class="block-heading" id="your-feedback">
+                    ваш фидбек
+                </h2>
+                <form class="form-your-feedback">
+                    <span class="span-your-feedback">
+                        Как часто вы заходите на сайт?
+                    </span>
+                    <select class="field your-feedback-field">
+                        <option>Почти каждый день</option>
+                        <option>Раз в неделю</option>
+                    </select>
+                    <div class="form-group">
+                        <span class="span-your-feedback">Вы подписаны на e-mail рассылку?</span>
+                        <label class="radio-group">
+                            <input type="radio" class="radio" name="radio-group" required>
+                            <span class="radio-group-text">Да</span>
+                        </label>
+                        <label class="radio-group">
+                            <input type="radio" class="radio" name="radio-group" required>
+                            <span class="radio-group-text">Нет</span>
+                        </label>
+                    </div>
+                    <span class="span-your-feedback">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                    <textarea name="comment" class="field form-hint-field" placeholder="Может, больше рецептов?" required></textarea>
+                    <input type="submit" class="button-subscribe" id="send">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <haeder class="header">
+        <div class="header-container">
+            <div class="logo-menu">
+                <div class="logo">
+                    <a href="#">
+                        <img src="svg/noemi-logo.svg" alt="logo NOEMI">
+                    </a>
+                </div>
+                <nav class="hamburger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a class="menu-link menu-list-item" href="#">главная</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-link menu-list-item" href="#posts">посты</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-link menu-list-item" href="#articles">статьи</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-link menu-list-item" href="#tags">теги</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-link menu-list-item" href="#themes">темы</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-link menu-list-item" href="#contacts">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="heading">
+                блог о творчестве, спорте, и образе жизни
+            </h1>
+        </div>
+    </haeder>
+
+    <article class="now-in-trend">
+        <h2 class="block-heading" id="now-in-trend">
+            сечас в тренде
+        </h2>
+
+        <div class="now-in-trend-blocks">
+            <div class="now-in-trend-block">
+                <div class="now-in-trend-block-border">
+                    <ul class="list news-tag-list">
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">lifestile</a>
+                        </li>
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">interior</a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="menu-link">
+                        <h2 class="now-in-trend-name">сейчас в тренде: сад на подоконнике</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="now-in-trend-block">
+                <div class="now-in-trend-block-border">
+                    <ul class="list news-tag-list">
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">food</a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="menu-link">
+                        <h2 class="now-in-trend-name">сыры на красивых картинках из интернета: какие они на вкус?</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="now-in-trend-block">
+                <div class="now-in-trend-block-border">
+                    <ul class="list news-tag-list">
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">lifestile</a>
+                        </li>
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">travel</a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="menu-link">
+                        <h2 class="now-in-trend-name">собираемся в первый поход в горы</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="now-in-trend-block">
+                <div class="now-in-trend-block-border">
+                    <ul class="list news-tag-list">
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">food</a>
+                        </li>
+                        <li class="news-tag-item">
+                            <a href="#0" class="link now-in-trend-tag">health</a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="menu-link">
+                        <h2 class="now-in-trend-name">сейчас в тренде: сколько витамина с в лимонах</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <div class="solid" id="articles">
+        <main class="main">
+
             <article class="news">
                 <div class="news-preview">
-                    <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="девушка йога">
+                    <img class="news-img" src="img/last-post1.jpg" alt="пляж рассвет">
+                </div>
+                <div class="news-info">
+                    <ul class="list news-tag-list">
+                        <li class="news-tag-item">
+                            <a href="#0" class="news-tag link">Travel</a>
+                        </li>
+                        <li class="news-tag-item">
+                            <a href="#0" class="news-tag link">Health</a>
+                        </li>
+                    </ul>
+                    <a href="#0" class="menu-link">
+                        <h2 class="news-name">10 мест, ради которых стоит проснуться на рассвете</h2>
+                    </a>
+                    <div class="news-date-author">
+                        <time class="news-date" datetime="2019-06-10">10 июня 2019</time>
+                        <span class="news-author">Неизвестный автор</span>
+                    </div>
+                    <div class="news-description">
+                        <p class="paragraph">
+                            Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="news">
+                <div class="news-preview">
+                    <img class="news-img" src="img/last-post2.jpg" alt="девушка йога">
                 </div>
                 <div class="news-info">
                     <ul class="list news-tag-list">
@@ -28,7 +219,7 @@
 
             <article class="news">
                 <div class="news-preview">
-                    <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="девушка музыкальный фестиваль">
+                    <img class="news-img" src="img/last-post3.jpg" alt="девушка музыкальный фестиваль">
                 </div>
                 <div class="news-info">
                     <ul class="list news-tag-list">
@@ -56,7 +247,7 @@
 
             <article class="news">
                 <div class="news-preview">
-                    <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="еда на столе">
+                    <img class="news-img" src="img/last-post4.jpg" alt="еда на столе">
                 </div>
                 <div class="news-info">
                     <ul class="list news-tag-list">
@@ -84,7 +275,7 @@
 
             <article class="news">
                 <div class="news-preview">
-                    <img class="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="принт на подушке">
+                    <img class="news-img" src="img/last-post5.jpg" alt="принт на подушке">
                 </div>
                 <div class="news-info">
                     <ul class="list news-tag-list">
@@ -115,7 +306,7 @@
 
             <article class="news">
                 <div class="news-preview">
-                    <img class="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="пара людей в горах">
+                    <img class="news-img" src="img/last-post6.jpg" alt="пара людей в горах">
                 </div>
                 <div class="news-info">
                     <ul class="list news-tag-list">
@@ -143,7 +334,7 @@
 
             <article class="news">
                 <div class="news-preview">
-                    <img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="еда на столе">
+                    <img class="news-img" src="img/last-post4.jpg" alt="еда на столе">
                 </div>
                 <div class="news-info">
                     <ul class="list news-tag-list">
@@ -176,7 +367,7 @@
                 </h2>
                 <article class="right-bar-news">
                     <div class="right-bar-preview">
-                        <img class="right-bar-news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" alt="пляж рассвет">
+                        <img class="right-bar-news-img" src="img/2.jpg" alt="пляж рассвет">
                     </div>
                     <div class="right-bar-info">
                         <time class="news-date" datetime="2019-06-14">14 июня 2019</time>
@@ -190,7 +381,7 @@
 
                 <article class="right-bar-news">
                     <div class="right-bar-preview">
-                        <img class="right-bar-news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg" alt="йога">
+                        <img class="right-bar-news-img" src="img/151.jpg" alt="йога">
                     </div>
                     <div class="right-bar-info">
                         <time class="news-date" datetime="2019-06-14">14 июня 2019</time>
@@ -204,7 +395,7 @@
 
                 <article class="right-bar-news">
                     <div class="right-bar-preview">
-                        <img class="right-bar-news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg" alt="кресло">
+                        <img class="right-bar-news-img" src="img/45.jpg" alt="кресло">
                     </div>
                     <div class="right-bar-info">
                         <time class="news-date" datetime="2019-06-14">14 июня 2019</time>
@@ -216,7 +407,7 @@
 
                 <article class="right-bar-news">
                     <div class="right-bar-preview">
-                        <img class="right-bar-news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg" alt="кулинария">
+                        <img class="right-bar-news-img" src="img/501.jpg" alt="кулинария">
                     </div>
                     <div class="right-bar-info">
                         <time class="news-date" datetime="2019-06-14">14 июня 2019</time>
@@ -230,7 +421,7 @@
 
                 <article class="right-bar-news">
                     <div class="right-bar-preview">
-                        <img class="right-bar-news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg" alt="прически">
+                        <img class="right-bar-news-img" src="img/7.jpg" alt="прически">
                     </div>
                     <div class="right-bar-info">
                         <time class="news-date" datetime="2019-06-14">14 июня 2019</time>
