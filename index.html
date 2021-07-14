@@ -1,4 +1,4 @@
-         <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -62,7 +62,7 @@
                         <span></span>
                     </label>
                     <ul class="menu-list">
-                        <li class="menu-list-item">
+                        <li class="menu-list-item" id="menu-list">
                             <a class="menu-link menu-list-item" href="#">главная</a>
                         </li>
                         <li class="menu-list-item">
@@ -90,8 +90,8 @@
     </haeder>
 
     <article class="now-in-trend">
-        <h2 class="block-heading" id="now-in-trend">
-            сечас в тренде
+        <h2 class="block-heading-trend" id="now-in-trend">
+            сейчас в тренде
         </h2>
 
         <div class="now-in-trend-blocks">
@@ -112,7 +112,7 @@
             </div>
 
             <div class="now-in-trend-block">
-                <div class="now-in-trend-block-border">
+                <div class="now-in-trend-block-border now-in-trend-block-border-right">
                     <ul class="list news-tag-list">
                         <li class="news-tag-item">
                             <a href="#0" class="link now-in-trend-tag">food</a>
@@ -141,7 +141,7 @@
             </div>
 
             <div class="now-in-trend-block">
-                <div class="now-in-trend-block-border">
+                <div class="now-in-trend-block-border now-in-trend-block-border-right">
                     <ul class="list news-tag-list">
                         <li class="news-tag-item">
                             <a href="#0" class="link now-in-trend-tag">food</a>
@@ -517,18 +517,25 @@
                 </ul>
             </section>
         </aside>
+
         <article class="our-products">
             <h2 class="block-heading" id="now-in-trend">
                 наши изделия
             </h2>
             <div class="our-products-blocks">
                 <div class="our-products-block">
-                    <img class="our-products-img" src="img/shop-item-desk1.jpg" alt="Подушка на диван">
+                    <div class="our-products-img-box">
+                        <picture class="our-products-img">
+                            <source media="(max-width: 640px)" srcset="img/shop-item-mobile1.jpg">
+                            <source media="(max-width: 1119px)" srcset="img/shop-item-tablet1.jpg">
+                            <img src="img/shop-item-desk1.jpg" alt="Подушка на диван">
+                        </picture>
+                    </div>
                     <div class="our-products-border">
                         <h3 class="our-products-heading" id="now-in-trend">
                             Подушка на диван
                         </h3>
-                        <p class="paragraph">
+                        <p class="our-products-paragraph">
                             Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="link our-products-link">здесь</a>.
                         </p>
                         <div class="our-products-button-price">
@@ -544,17 +551,23 @@
                 </div>
 
                 <div class="our-products-block">
-                    <img class="our-products-img" src="img/shop-item-desk2.jpg" alt="Подушка на диван">
+                    <div class="our-products-img-box">
+                        <picture class="our-products-img">
+                            <source media="(max-width: 640px)" srcset="img/shop-item-mobile2.jpg">
+                            <source media="(max-width: 1119px)" srcset="img/shop-item-tablet2.jpg">
+                            <img src="img/shop-item-desk2.jpg" alt="Подушка на диван">
+                        </picture>
+                    </div>
                     <div class="our-products-border">
                         <h3 class="our-products-heading" id="now-in-trend">
                             кукла "зайчик"
                         </h3>
-                        <p class="paragraph">
+                        <p class="our-products-paragraph">
                             Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a href="#0" class="link our-products-link">весеняя серия постов</a> в блоге и несколько подкастов.
                         </p>
                         <div class="our-products-button-price">
                             <div class="our-products-price">
-                                800 ₽
+                                3500 ₽
                             </div>
                             <button class="button-subscribe our-products-button">в магазин</button>
                         </div>
@@ -562,12 +575,18 @@
                 </div>
 
                 <div class="our-products-block">
-                    <img class="our-products-img" src="img/shop-item-desk3.jpg" alt="Подушка на диван">
+                    <div class="our-products-img-box">
+                        <picture class="our-products-img">
+                            <source media="(max-width: 640px)" srcset="img/shop-item-mobile3.jpg">
+                            <source media="(max-width: 1119px)" srcset="img/shop-item-tablet3.jpg">
+                            <img src="img/shop-item-desk3.jpg" alt="Подушка на диван">
+                        </picture>
+                    </div>
                     <div class="our-products-border">
                         <h3 class="our-products-heading" id="now-in-trend">
                             шестиугольная рамка
                         </h3>
-                        <p class="paragraph">
+                        <p class="our-products-paragraph">
                             Необычная рамка для украшения дома <a href="#0" class="link our-products-link">"Как сделать рамку из подручных средств за 30 минут</a>
                         </p>
                         <div class="our-products-button-price">
@@ -621,6 +640,4 @@
             Copyright © 2009–2019 City Blog LLC.
         </a>
     </footer>
-</body>
-
-</html>
+</body></html>
